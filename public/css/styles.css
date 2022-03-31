@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    koach
+Version:    1.0
+Last change:    03/31/22 [Initial build]
+Assigned to:    Stephen M.
+Primary use:    Job posting app
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+4. Resets
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[1. Variables]
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[# Colors]
+*/
+/*------------------------------------------------------------------
+[5. Resets]
+*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  background: transparent;
+  vertical-align: baseline;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #EDEDED;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #5465FF;
+}
+
+/* @import "debugging.css"; */
+/*# sourceMappingURL=styles.css.map */

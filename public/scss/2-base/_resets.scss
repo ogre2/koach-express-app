@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------
+[5. Resets]
+*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: transparent;
+    vertical-align: baseline;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    &-track {
+        background-color: $color-grey;
+    }
+    &-thumb {
+        border-radius: 3px;
+        background-color: $color-main;
+    }
+}
